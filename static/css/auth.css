@@ -307,12 +307,6 @@
   color: var(--color-text);
 }
 
-@media (max-width: 540px) {
-  .guest-order-result__meta {
-    grid-template-columns: 1fr;
-  }
-}
-
 .auth-card--form {
   max-width: 480px;
 }
@@ -428,7 +422,7 @@
   transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 
-.auth-segment__item input:checked + span {
+.auth-segment__item input:checked+span {
   border-color: #111;
   color: #111;
   font-weight: 600;
@@ -708,7 +702,15 @@
 }
 
 @media (max-width: 540px) {
+  .guest-order-result__meta {
+    grid-template-columns: 1fr;
+  }
+
   .auth-page {
-    padding-top: 32px;
+    padding-top: 48px;
+  }
+
+  .auth-page .auth-card--form.auth-card--wide {
+    margin-top: 8px;
   }
 }

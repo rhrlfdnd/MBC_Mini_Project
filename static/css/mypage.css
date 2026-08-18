@@ -805,4 +805,59 @@
   .mypage__status-item::after {
     display: none;
   }
+
+  /* 마이페이지 모바일 사이드 메뉴 간격 */
+  .mypage__nav-group {
+    margin-bottom: 16px;
+  }
+
+  .mypage__nav-title {
+    margin-bottom: 7px;
+  }
+
+  .mypage__nav li {
+    margin-bottom: 5px;
+  }
+
+  /* 위시리스트 모바일 */
+  .mypage__wishlist-item {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .mypage__wishlist-link {
+    width: 100%;
+    gap: 14px;
+  }
+
+  .mypage__wishlist-thumb {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mypage__wishlist-thumb img {
+    object-fit: contain;
+  }
+
+  .mypage__wishlist-name {
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .mypage__wishlist-price {
+    font-size: 14px;
+  }
+
+  .mypage__wishlist-actions {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .mypage__link-btn--small {
+    padding: 9px 18px;
+  }
 }

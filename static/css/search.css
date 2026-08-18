@@ -1246,6 +1246,229 @@
   .product-detail--hpix.has-mobile-dock {
     padding-bottom: calc(76px + env(safe-area-inset-bottom));
   }
+
+  /* 상품 상세 - 모바일 상단 영역 */
+  .product-detail--hpix {
+    padding-top: 12px;
+  }
+
+  .product-detail__shell {
+    row-gap: 20px;
+  }
+
+  /* 상품 이미지 */
+  .product-detail__image {
+    aspect-ratio: 1 / 1;
+    background: #fff;
+  }
+
+  .product-detail__image img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  /* 상품 정보 */
+  .product-detail__purchase {
+    padding-top: 0;
+  }
+
+  .product-detail__brand {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+
+  .product-detail__name {
+    font-size: 20px;
+    line-height: 1.35;
+    margin-bottom: 12px;
+  }
+
+  .product-detail__price {
+    margin-bottom: 12px;
+  }
+
+  .product-detail__original {
+    font-size: 11px;
+  }
+
+  .product-detail__discount {
+    font-size: 12px;
+  }
+
+  .product-detail__sale {
+    font-size: 20px;
+  }
+
+  /* 상품 소개 문구 */
+  .product-detail__lead {
+    font-size: 13px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  /* 간단 스펙 */
+  .product-detail__summary-specs {
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+  }
+
+  .product-detail__summary-specs li {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  /* 모바일 수량 / 총액 / 구매 버튼 */
+  .product-detail__qty-row {
+    margin-bottom: 14px;
+    gap: 10px;
+  }
+
+  .product-detail__qty-label {
+    font-size: 12px;
+  }
+
+  .product-detail__qty {
+    min-height: 40px;
+  }
+
+  .product-detail__qty-btn {
+    width: 40px;
+    font-size: 16px;
+  }
+
+  .product-detail__qty-input {
+    width: 52px;
+    font-size: 14px;
+  }
+
+  .product-detail__total {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    font-size: 12px;
+  }
+
+  .product-detail__total strong {
+    font-size: 18px;
+  }
+
+  .product-detail__actions {
+    gap: 8px;
+  }
+
+  .product-detail__actions .btn {
+    min-height: 46px;
+    padding: 13px 16px;
+    font-size: 12px;
+  }
+
+  /* PRODUCT DETAIL 모바일 표 */
+  .product-detail__table,
+  .product-detail__table tbody,
+  .product-detail__table tr,
+  .product-detail__table th,
+  .product-detail__table td {
+    display: block;
+    width: 100%;
+  }
+
+  .product-detail__table tr {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .product-detail__table th,
+  .product-detail__table td {
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .product-detail__table th {
+    width: 100%;
+    background: transparent;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--color-text-light);
+  }
+
+  .product-detail__table td {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--color-text);
+  }
+
+  /* 상세 설명 영역 모바일 가독성 */
+  .product-detail__panel {
+    padding: 30px 0;
+  }
+
+  .product-detail__panel-title {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+
+  .product-detail__panel-body {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .product-detail__richtext .hpix-subtitle {
+    font-size: 12px;
+    margin: 20px 0 10px;
+  }
+
+  .product-detail__richtext .hpix-list {
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  .product-detail__richtext .hpix-list li {
+    margin-bottom: 7px;
+    line-height: 1.7;
+  }
+
+  .product-detail__shipping-lead {
+    margin-bottom: 14px;
+    line-height: 1.7;
+  }
+
+  .product-detail__review-note,
+  .product-detail__empty,
+  .product-detail__login-hint {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  /* RELATED PRODUCTS 모바일 */
+  .product-detail__related {
+    margin-top: 44px;
+    padding-top: 32px;
+  }
+
+  .product-detail__related h2 {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+
+  .product-detail__related .product-grid,
+  .product-detail__related .product-grid--compact {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 14px;
+  }
+
+  .product-detail__related .product-info {
+    padding-top: 8px;
+  }
+
+  .product-detail__related .product-name {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+  .product-detail__related .product-price {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1295,3 +1518,4 @@
     object-fit: contain !important;
     display: block !important;
   }
+}
